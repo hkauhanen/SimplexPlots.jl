@@ -17,4 +17,5 @@ makedocs(sitename="SimplexPlots.jl",
 
 deploydocs(
     repo = "github.com/hkauhanen/SimplexPlots.jl.git",
+    target = "build"
 )
