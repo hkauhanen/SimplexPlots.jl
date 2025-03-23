@@ -20,6 +20,15 @@ Other Julia packages that do this, with certain differences, are [TernaryDiagram
 
 See the [Documentation](https://hkauhanen.github.io/SimplexPlots.jl).
 
+A quick example:
+
+```julia
+using Plots, SimplexPlots, Distributions
+
+dir = Dirichlet(5 .* ones(3))
+
+simplex_histogram(rand(dir, 10_000))
+```
 
 ![](histo2.png)
 
