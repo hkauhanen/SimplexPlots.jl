@@ -1,4 +1,4 @@
-push!(LOAD_PATH,"../src/")
+#push!(LOAD_PATH,"../src/")
 
 using Documenter, DocumenterInterLinks, SimplexPlots
 
@@ -12,8 +12,8 @@ makedocs(sitename="SimplexPlots.jl",
                   "Guide" => "guide.md",
                   "Reference" => "reference.md"
                  ],
-         plugins = [links],
-         remotes = nothing)
+         plugins = [links])
+         #remotes = nothing)
 
 deploydocs(
     repo = "github.com/hkauhanen/SimplexPlots.jl.git",
