@@ -205,8 +205,6 @@ some_random_vectors = rand(dir, 10_000)
 These can be passed to `simplex_histogram` to obtain a histogram:
 
 ```@example g
-using LinearAlgebra
-
 simplex_histogram(some_random_vectors)
 
 savefig("histo1.png") # hide
