@@ -2,8 +2,6 @@
 
 [![Build Status](https://github.com/hkauhanen/SimplexPlots.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/hkauhanen/SimplexPlots.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
-![](histo2.png)
-
 
 ## What is it?
 
@@ -21,4 +19,8 @@ Other Julia packages that do this, with certain differences, are [TernaryDiagram
 ## How to use it?
 
 See the [Documentation](https://hkauhanen.github.io/SimplexPlots.jl).
+
+
+![](histo2.png)
+
 
