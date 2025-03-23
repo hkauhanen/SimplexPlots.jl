@@ -1,6 +1,7 @@
 # SimplexPlots
 
-[![Build Status](https://github.com/hkauhanen/SimplexPlots.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/hkauhanen/SimplexPlots.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://hkauhanen.github.io/SimplexPlots.jl/stable)
+[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://hkauhanen.github.io/SimplexPlots.jl/dev)
 
 
 ## What is it?
