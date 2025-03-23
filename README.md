@@ -27,7 +27,7 @@ using Plots, SimplexPlots, Distributions
 
 dir = Dirichlet(5 .* ones(3))
 
-simplex_histogram(rand(dir, 10_000))
+simplex_histogram(rand(dir, 100_000))
 ```
 
 ![](histo2.png)
