@@ -18,7 +18,7 @@ Further keyword arguments are passed to [`Plots.histogram`](@extref).
 """
 function simplex_histogram(x::AbstractMatrix{Float64}; bins = 50, vertices = default_vertices, axes = default_axes, color=:jet, args...)
 
-    if size(x, 1) == 3
+    if size(x, 2) != 3
         x = LinearAlgebra.transpose(x)
     end
 
