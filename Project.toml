@@ -1,7 +1,7 @@
 name = "SimplexPlots"
 uuid = "01b033bf-579e-43e2-b889-98e6248b379a"
 authors = ["Henri Kauhanen"]
-version = "0.0.2"
+version = "0.0.4"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
