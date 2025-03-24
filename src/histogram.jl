@@ -86,4 +86,4 @@ end
                       color = :jet,
                       args...)
 """
-simplex_histogram(x::Vector{Vector{Float64}}; bins = 50, vertices = default_vertices, axrs = default_axes, color=:jet, args...) = simplex_histogram(LinearAlgebra.transpose(hcat(x...)); bins=bins, vertices=vertices, axes=axes, col=col, args...)
+simplex_histogram(x::Vector{Vector{Float64}}; bins = 50, vertices = default_vertices, axrs = default_axes, color=:jet, args...) = simplex_histogram(LinearAlgebra.transpose(hcat(x...)); bins=bins, vertices=vertices, axes=axes, color=color, args...)
